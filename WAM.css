@@ -1,0 +1,19 @@
+.grid {
+    width: 606px; /*this was 600 before, but it was changed to fit the border of the squares. i don't really get it */
+    height: 606px; /* it was 600 too */
+    display: flex; /*makes the item in the grid stay side by side instead of on top of each other */
+    flex-wrap: wrap; /*they "wrap" around each */ 
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px; /* combines border style, border color and border width respectively */
+    
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+    
+}
